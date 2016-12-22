@@ -1,0 +1,15 @@
+site_name: Stukaglo
+theme: 'material'
+dev_addr: '127.0.0.1:9999'
+extra_javascript: 
+    - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+markdown_extensions:
+    - mdx_math
+    - admonition
+extra:
+    palette:
+        primary: 'teal'
+        accent: 'red'
+    font:
+        text: 'Montserrat'
+        code: 'Roboto Mono'
