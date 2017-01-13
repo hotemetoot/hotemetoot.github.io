@@ -209,6 +209,11 @@
             "location": "/mathjax-test/",
             "text": "When \\(a \\ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are\n\n\n\\[x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.\\]",
             "title": "Mathjax Test"
+        },
+        {
+            "location": "/practice/",
+            "text": "Question\n\n\n\nif speed is \n km/hour\n\n\n\nand distance is \n km\n\n\n\nwhat is the time in minutes? \n\n\n\n\n\n\nshow answer\n\n\nnew question",
+            "title": "Practice"
         }
     ]
 }
