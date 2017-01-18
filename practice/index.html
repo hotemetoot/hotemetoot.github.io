@@ -11,7 +11,7 @@
       
         <link rel="shortcut icon" href="../assets/images/favicon.ico">
       
-      <meta name="generator" content="mkdocs+mkdocs-material#1.0.0">
+      <meta name="generator" content="mkdocs+mkdocs-material#1.0.2">
     
     
       
@@ -32,7 +32,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application-ff220fd69d.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application-1b8b9fdf68.css">
       
         <link rel="stylesheet" href="../assets/stylesheets/application-02ce7adcc2.palette.css">
       
@@ -62,12 +62,12 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href=".." title="Stuka Glo" class="md-icon  md-icon--home  md-header-nav__icon">
+        <a href=".." title="Stuka Glo" class=" md-icon md-icon--home  md-header-nav__button">
           
         </a>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__icon" for="drawer"></label>
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <span class="md-flex__ellipsis md-header-nav__title">
@@ -81,7 +81,7 @@
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__icon" for="search"></label>
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
 <div class="md-search" data-md-component="search">
   <div class="md-search__overlay"></div>
@@ -118,7 +118,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <i class="md-icon  md-icon--home  md-nav__icon">
+    <i class=" md-icon md-icon--home  md-nav__button">
       
     </i>
     Stuka Glo
@@ -286,16 +286,22 @@
                 
                 <h3>Question</h3>
 
-<p>if speed is <span id="speed"></span> km/hour</p>
+<p>Shamir vertrok om <span id="t0"></span> van zijn huis naar school met een gemiddelde snelheid van <span id="speed"></span> km/u.</p>
 
-<p>and distance is <span id="distance"></span> km</p>
+<p>Onderweg rustte hij even uit.</p>
 
-<p>what is the time in minutes? <span id="time"></span></p>
+<p>De afstand van Shamir's huis naar school is <span id="distance"></span> km.</p>
 
-<p id="answer"></p>
+<p>Shamir komt om <span id="t1"></span> aan op school.</p>
 
-<p><button type="button" id="show">show answer</button>
-<button type="button" id="new">new question</button></p>
+<p>Hoeveel minuten heeft hij onderweg uitgerust?</p>
+
+<p><input id="input" type="text" />
+<br>
+<p id="solution"></p>
+<button type="button" id="check">Antwoord controleren</button>
+<button type="button" id="new">Nieuwe vraag</button>
+<button type="button" id="show">Antwoord laten zien</button></p>
               
             </article>
           </div>
@@ -310,7 +316,7 @@
         
           <a href="../mathjax-test/" title="Mathjax Test" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__icon"></i>
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
