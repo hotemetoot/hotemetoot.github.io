@@ -9,9 +9,9 @@
       
       
       
-        <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+        <link rel="shortcut icon" href="../../assets/images/favicon.png">
       
-      <meta name="generator" content="mkdocs+mkdocs-material#1.0.2">
+      <meta name="generator" content="mkdocs-0.16.2, mkdocs-material-1.4.1">
     
     
       
@@ -19,7 +19,13 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-facb31f4a3.js"></script>
+      <script src="../../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-76741b64bc.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-66fa0d9bba.palette.css">
+      
     
     
       
@@ -32,13 +38,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application-1b8b9fdf68.css">
-      
-        <link rel="stylesheet" href="../../assets/stylesheets/application-02ce7adcc2.palette.css">
-      
-      
-        <link rel="stylesheet" href="../../stylesheets/extra.css">
-      
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
   </head>
@@ -58,13 +58,14 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <header class="md-header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../.." title="Stuka Glo" class=" md-icon md-icon--home  md-header-nav__button">
-          
-        </a>
+        
+          <a href="../.." title="Stuka Glo" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
@@ -91,12 +92,17 @@
   <div class="md-search__overlay"></div>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result"></div>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
       </div>
     </div>
   </div>
@@ -104,15 +110,17 @@
         
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-          </div>
+        <div class="md-header-nav__source">
+          
+        </div>
       </div>
     </div>
   </nav>
 </header>
     
     <div class="md-container">
+      
+      
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
@@ -120,11 +128,11 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <i class=" md-icon md-icon--home  md-nav__button">
-      
-    </i>
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
     Stuka Glo
   </label>
   
@@ -132,25 +140,31 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../.." title="Home" class="md-nav__link">
-        Home
-      </a>
-    
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
   </li>
 
     
       
       
-  <li class="md-nav__item md-nav__item--nested">
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       GLO toets 2011
     </label>
-    <nav class="md-nav" data-md-component="collapsible">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
         GLO toets 2011
       </label>
@@ -159,62 +173,96 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-3/" title="Vraag 3" class="md-nav__link">
-        Vraag 3
-      </a>
-    
+    <a href="../vraag-2/" title="Vraag 2" class="md-nav__link">
+      Vraag 2
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-4/" title="Vraag 4" class="md-nav__link">
-        Vraag 4
-      </a>
-    
+    <a href="../vraag-3/" title="Vraag 3" class="md-nav__link">
+      Vraag 3
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-4b/" title="Vraag 4b" class="md-nav__link">
-        Vraag 4b
-      </a>
-    
+    <a href="../vraag-4/" title="Vraag 4" class="md-nav__link">
+      Vraag 4
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-5/" title="Vraag 5" class="md-nav__link">
-        Vraag 5
-      </a>
-    
+    <a href="../vraag-4b/" title="Vraag 4b" class="md-nav__link">
+      Vraag 4b
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-8/" title="Vraag 8" class="md-nav__link">
-        Vraag 8
-      </a>
-    
+    <a href="../vraag-5/" title="Vraag 5" class="md-nav__link">
+      Vraag 5
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
+    <a href="../vraag-6/" title="Vraag 6" class="md-nav__link">
+      Vraag 6
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vraag-8/" title="Vraag 8" class="md-nav__link">
+      Vraag 8
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
@@ -283,6 +331,8 @@
   
 </li>
       
+      
+      
     </ul>
   
 </nav>
@@ -297,23 +347,25 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../mathjax-test/" title="Mathjax Test" class="md-nav__link">
-        Mathjax Test
-      </a>
-    
+    <a href="../../mathjax-test/" title="Mathjax Test" class="md-nav__link">
+      Mathjax Test
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../practice/" title="Practice" class="md-nav__link">
-        Practice
-      </a>
-    
+    <a href="../../practice/" title="Practice" class="md-nav__link">
+      Practice
+    </a>
   </li>
 
     
@@ -383,6 +435,8 @@
   
 </li>
       
+      
+      
     </ul>
   
 </nav>
@@ -393,8 +447,8 @@
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
-               
               
+                
                 
                   <h1>Vraag 11</h1>
                 
@@ -428,8 +482,7 @@ Bijvoorbeeld, 1.5 uur is 1 uur en 30 (0.5 x 60) minuten.</p>
 Afstand = 96 km<br />
 Snelheid = 80 km/u<br />
 Tijd = 96 : 80</p>
-<p>\[\frac{96}{80}=\frac{48}{40}=\frac{12}{10}=\frac{6}{5}=1\frac15\]</p>
-<p>1\(\frac15\) uur is gelijk aan 1 uur en 12 (60 : 5) minuten.
+<span>\[\frac{96}{80}=\frac{48}{40}=\frac{12}{10}=\frac{6}{5}=1\frac15\]</span><p>1<span>\(\frac15\)</span> uur is gelijk aan 1 uur en 12 (60 : 5) minuten.
 Shamir zou zonder pauze dus 1 uur en 12 minuten onderweg zijn.  </p>
 <h3 id="stap-2-bereken-hoe-lang-shamir-werkelijk-onderweg-was">Stap 2: Bereken hoe lang Shamir werkelijk onderweg was.</h3>
 <p>Shamir vertrok om 10.15 en kwam aan om 12.07 bij punt S.<br />
@@ -442,6 +495,12 @@ In stap 2 hebben we berekend dat Shamir in de werkelijkheid 1 uur en 52 minuten 
 Hij heeft er dus 40 minuten langer over gedaan dan noidg. 
 Dat betekent dat hij een pauze heeft genomen van precies <strong>40 minuten</strong>.
 Het juiste antwoord is dus <strong>B</strong>.</p>
+                
+                  
+                
+              
+              
+                
               
             </article>
           </div>
@@ -505,8 +564,8 @@ Het juiste antwoord is dus <strong>B</strong>.</p>
       
     </div>
     
-      <script src="../../assets/javascripts/application-16f434a21a.js"></script>
-      <script>var config={url:{base:"../.."}},app=new Application(config);app.initialize()</script>
+      <script src="../../assets/javascripts/application-3964c0cb56.js"></script>
+      <script>app.initialize({url:{base:"../.."}})</script>
       
         <script src="../../mathjax-config.js"></script>
       

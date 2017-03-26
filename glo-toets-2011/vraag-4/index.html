@@ -9,9 +9,9 @@
       
       
       
-        <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+        <link rel="shortcut icon" href="../../assets/images/favicon.png">
       
-      <meta name="generator" content="mkdocs+mkdocs-material#1.0.2">
+      <meta name="generator" content="mkdocs-0.16.2, mkdocs-material-1.4.1">
     
     
       
@@ -19,7 +19,13 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-facb31f4a3.js"></script>
+      <script src="../../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-76741b64bc.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-66fa0d9bba.palette.css">
+      
     
     
       
@@ -32,13 +38,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application-1b8b9fdf68.css">
-      
-        <link rel="stylesheet" href="../../assets/stylesheets/application-02ce7adcc2.palette.css">
-      
-      
-        <link rel="stylesheet" href="../../stylesheets/extra.css">
-      
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
   </head>
@@ -58,13 +58,14 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <header class="md-header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../.." title="Stuka Glo" class=" md-icon md-icon--home  md-header-nav__button">
-          
-        </a>
+        
+          <a href="../.." title="Stuka Glo" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
@@ -91,12 +92,17 @@
   <div class="md-search__overlay"></div>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result"></div>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
       </div>
     </div>
   </div>
@@ -104,15 +110,17 @@
         
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-          </div>
+        <div class="md-header-nav__source">
+          
+        </div>
       </div>
     </div>
   </nav>
 </header>
     
     <div class="md-container">
+      
+      
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
@@ -120,11 +128,11 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <i class=" md-icon md-icon--home  md-nav__button">
-      
-    </i>
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
     Stuka Glo
   </label>
   
@@ -132,25 +140,31 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../.." title="Home" class="md-nav__link">
-        Home
-      </a>
-    
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
   </li>
 
     
       
       
-  <li class="md-nav__item md-nav__item--nested">
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       GLO toets 2011
     </label>
-    <nav class="md-nav" data-md-component="collapsible">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
         GLO toets 2011
       </label>
@@ -159,18 +173,36 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-3/" title="Vraag 3" class="md-nav__link">
-        Vraag 3
-      </a>
-    
+    <a href="../vraag-2/" title="Vraag 2" class="md-nav__link">
+      Vraag 2
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
+    <a href="../vraag-3/" title="Vraag 3" class="md-nav__link">
+      Vraag 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
@@ -239,6 +271,8 @@
   
 </li>
       
+      
+      
     </ul>
   
 </nav>
@@ -248,45 +282,61 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-4b/" title="Vraag 4b" class="md-nav__link">
-        Vraag 4b
-      </a>
-    
+    <a href="../vraag-4b/" title="Vraag 4b" class="md-nav__link">
+      Vraag 4b
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-5/" title="Vraag 5" class="md-nav__link">
-        Vraag 5
-      </a>
-    
+    <a href="../vraag-5/" title="Vraag 5" class="md-nav__link">
+      Vraag 5
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-8/" title="Vraag 8" class="md-nav__link">
-        Vraag 8
-      </a>
-    
+    <a href="../vraag-6/" title="Vraag 6" class="md-nav__link">
+      Vraag 6
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-11/" title="Vraag 11" class="md-nav__link">
-        Vraag 11
-      </a>
-    
+    <a href="../vraag-8/" title="Vraag 8" class="md-nav__link">
+      Vraag 8
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vraag-11/" title="Vraag 11" class="md-nav__link">
+      Vraag 11
+    </a>
   </li>
 
         
@@ -297,23 +347,25 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../mathjax-test/" title="Mathjax Test" class="md-nav__link">
-        Mathjax Test
-      </a>
-    
+    <a href="../../mathjax-test/" title="Mathjax Test" class="md-nav__link">
+      Mathjax Test
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../practice/" title="Practice" class="md-nav__link">
-        Practice
-      </a>
-    
+    <a href="../../practice/" title="Practice" class="md-nav__link">
+      Practice
+    </a>
   </li>
 
     
@@ -383,6 +435,8 @@
   
 </li>
       
+      
+      
     </ul>
   
 </nav>
@@ -393,13 +447,13 @@
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
-               
               
+                
                 
                   <h1>Vraag 4</h1>
                 
                 <h2 id="vraag">Vraag</h2>
-<p>Een kapitaal is SRD 12.000,- groot en staat uit tegen \(4\frac12\) % rente per jaar.</p>
+<p>Een kapitaal is SRD 12.000,- groot en staat uit tegen <span>\(4\frac12\)</span> % rente per jaar.</p>
 <p>Na hoeveel maanden brengt het kapitaal SRD 360,- aan rente op?</p>
 <p>A: 8 maanden<br />
 B: 6 maanden<br />
@@ -408,19 +462,19 @@ D: 18 maanden</p>
 <h2 id="achtergrond-informatie">Achtergrond Informatie</h2>
 <p>Een <strong>kapitaal</strong> is een groot bedrag geld, in dit geval 12.000,- SRD.</p>
 <p><strong>Rente</strong> is geld dat je verdient als je geld op de bank hebt staan, of dat je moet betalen als je geld van de bank leent.</p>
-<p>Een <strong>procent</strong> is \(\frac1{100}\) deel van een getal of bedrag. 
-Bijvoorbeeld, 1 procent van 12.000 is \(\frac{12.000}{100}\) = 120</p>
+<p>Een <strong>procent</strong> is <span>\(\frac1{100}\)</span> deel van een getal of bedrag. 
+Bijvoorbeeld, 1 procent van 12.000 is <span>\(\frac{12.000}{100}\)</span> = 120</p>
 <h2 id="oplossing">Oplossing</h2>
-<p>De vraag is: als je 12.000,- SRD op de bank hebt staan en je verdient per jaar \(4\frac12\) % rente, hoeveel maanden duurt het dan om 360,- SRD te verdienen?</p>
+<p>De vraag is: als je 12.000,- SRD op de bank hebt staan en je verdient per jaar <span>\(4\frac12\)</span> % rente, hoeveel maanden duurt het dan om 360,- SRD te verdienen?</p>
 <h3 id="stap-1-bereken-hoeveel-rente-je-verdient-in-1-jaar">Stap 1: bereken hoeveel rente je verdient in 1 jaar</h3>
 <p>1 % van SRD 12.000,- = SRD 120
-dus \(4\frac12\)% van SRD 12.000,- is \(4\frac12\) x 120 = SRD 540,-</p>
+dus <span>\(4\frac12\)</span>% van SRD 12.000,- is <span>\(4\frac12\)</span> x 120 = SRD 540,-</p>
 <p>Per jaar verdien je dus SRD 540,- aan rente.</p>
 <h3 id="stap-2-bereken-hoeveel-rente-je-verdient-per-maand">Stap 2: bereken hoeveel rente je verdient per maand</h3>
 <p>Per jaar verdien je SRD 540.
 Een jaar heeft twaalf maanden.
 Je moet dus 540 delen door 12, dat gaat het makkelijkst met een staartdeling:</p>
-<p>\[
+<span>\[
 \begin{array}{r}
       \underline{045} \\
   12 | 540 \\
@@ -431,13 +485,12 @@ Je moet dus 540 delen door 12, dat gaat het makkelijkst met een staartdeling:</p
          \underline{60}\\
          0\\
 \end{array}
-\]</p>
-<p>Het antwoord is 45, je verdient dus SRD 45 per maand</p>
+\]</span><p>Het antwoord is 45, je verdient dus SRD 45 per maand</p>
 <h3 id="stap-3-bereken-hoeveel-maanden-je-nodig-hebt-om-360-srd-te-verdienen">Stap 3: bereken hoeveel maanden je nodig hebt om 360 SRD te verdienen</h3>
 <p>Per maand verdien je 45 SRD
 Je moet dus 360 delen door 45
 Dat doen we weer met een staartdeling:</p>
-<p>\[
+<span>\[
 \begin{array}{r}
       \underline{008} \\
   45 | 360 \\
@@ -448,8 +501,13 @@ Dat doen we weer met een staartdeling:</p>
          \underline{360}\\
          0\\
 \end{array}
-\]</p>
-<p>Het antwoord is 8, je hebt dus <strong>8 maanden</strong> nodig om 360,- SRD te verdienen. Het juiste antwoord is <strong>A</strong></p>
+\]</span><p>Het antwoord is 8, je hebt dus <strong>8 maanden</strong> nodig om 360,- SRD te verdienen. Het juiste antwoord is <strong>A</strong></p>
+                
+                  
+                
+              
+              
+                
               
             </article>
           </div>
@@ -513,8 +571,8 @@ Dat doen we weer met een staartdeling:</p>
       
     </div>
     
-      <script src="../../assets/javascripts/application-16f434a21a.js"></script>
-      <script>var config={url:{base:"../.."}},app=new Application(config);app.initialize()</script>
+      <script src="../../assets/javascripts/application-3964c0cb56.js"></script>
+      <script>app.initialize({url:{base:"../.."}})</script>
       
         <script src="../../mathjax-config.js"></script>
       

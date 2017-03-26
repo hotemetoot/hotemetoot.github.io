@@ -21,3 +21,8 @@ button {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+#green {
+    background-color: seagreen;
+    color: white;
+}

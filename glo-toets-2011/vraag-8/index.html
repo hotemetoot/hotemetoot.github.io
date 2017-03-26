@@ -9,9 +9,9 @@
       
       
       
-        <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+        <link rel="shortcut icon" href="../../assets/images/favicon.png">
       
-      <meta name="generator" content="mkdocs+mkdocs-material#1.0.2">
+      <meta name="generator" content="mkdocs-0.16.2, mkdocs-material-1.4.1">
     
     
       
@@ -19,7 +19,13 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-facb31f4a3.js"></script>
+      <script src="../../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-76741b64bc.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-66fa0d9bba.palette.css">
+      
     
     
       
@@ -32,13 +38,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application-1b8b9fdf68.css">
-      
-        <link rel="stylesheet" href="../../assets/stylesheets/application-02ce7adcc2.palette.css">
-      
-      
-        <link rel="stylesheet" href="../../stylesheets/extra.css">
-      
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
   </head>
@@ -58,13 +58,14 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <header class="md-header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../.." title="Stuka Glo" class=" md-icon md-icon--home  md-header-nav__button">
-          
-        </a>
+        
+          <a href="../.." title="Stuka Glo" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
@@ -91,12 +92,17 @@
   <div class="md-search__overlay"></div>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result"></div>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
       </div>
     </div>
   </div>
@@ -104,15 +110,17 @@
         
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-          </div>
+        <div class="md-header-nav__source">
+          
+        </div>
       </div>
     </div>
   </nav>
 </header>
     
     <div class="md-container">
+      
+      
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
@@ -120,11 +128,11 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <i class=" md-icon md-icon--home  md-nav__button">
-      
-    </i>
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
     Stuka Glo
   </label>
   
@@ -132,25 +140,31 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../.." title="Home" class="md-nav__link">
-        Home
-      </a>
-    
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
   </li>
 
     
       
       
-  <li class="md-nav__item md-nav__item--nested">
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       GLO toets 2011
     </label>
-    <nav class="md-nav" data-md-component="collapsible">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
         GLO toets 2011
       </label>
@@ -159,51 +173,84 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-3/" title="Vraag 3" class="md-nav__link">
-        Vraag 3
-      </a>
-    
+    <a href="../vraag-2/" title="Vraag 2" class="md-nav__link">
+      Vraag 2
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-4/" title="Vraag 4" class="md-nav__link">
-        Vraag 4
-      </a>
-    
+    <a href="../vraag-3/" title="Vraag 3" class="md-nav__link">
+      Vraag 3
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-4b/" title="Vraag 4b" class="md-nav__link">
-        Vraag 4b
-      </a>
-    
+    <a href="../vraag-4/" title="Vraag 4" class="md-nav__link">
+      Vraag 4
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-5/" title="Vraag 5" class="md-nav__link">
-        Vraag 5
-      </a>
-    
+    <a href="../vraag-4b/" title="Vraag 4b" class="md-nav__link">
+      Vraag 4b
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
+    <a href="../vraag-5/" title="Vraag 5" class="md-nav__link">
+      Vraag 5
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vraag-6/" title="Vraag 6" class="md-nav__link">
+      Vraag 6
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
@@ -243,7 +290,36 @@
     Oplossing
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stap-1-haakjes" title="Stap 1: haakjes" class="md-nav__link">
+    Stap 1: haakjes
+  </a>
+  
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#stap-2-vermenigvuldigen-en-delen" title="Stap 2: vermenigvuldigen en delen" class="md-nav__link">
+    Stap 2: vermenigvuldigen en delen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stap-2-optellen-en-aftrekken" title="Stap 2: optellen en aftrekken" class="md-nav__link">
+    Stap 2: optellen en aftrekken
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
       
     </ul>
   
@@ -254,12 +330,13 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../vraag-11/" title="Vraag 11" class="md-nav__link">
-        Vraag 11
-      </a>
-    
+    <a href="../vraag-11/" title="Vraag 11" class="md-nav__link">
+      Vraag 11
+    </a>
   </li>
 
         
@@ -270,23 +347,25 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../mathjax-test/" title="Mathjax Test" class="md-nav__link">
-        Mathjax Test
-      </a>
-    
+    <a href="../../mathjax-test/" title="Mathjax Test" class="md-nav__link">
+      Mathjax Test
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../practice/" title="Practice" class="md-nav__link">
-        Practice
-      </a>
-    
+    <a href="../../practice/" title="Practice" class="md-nav__link">
+      Practice
+    </a>
   </li>
 
     
@@ -327,7 +406,36 @@
     Oplossing
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stap-1-haakjes" title="Stap 1: haakjes" class="md-nav__link">
+    Stap 1: haakjes
+  </a>
+  
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#stap-2-vermenigvuldigen-en-delen" title="Stap 2: vermenigvuldigen en delen" class="md-nav__link">
+    Stap 2: vermenigvuldigen en delen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stap-2-optellen-en-aftrekken" title="Stap 2: optellen en aftrekken" class="md-nav__link">
+    Stap 2: optellen en aftrekken
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
       
     </ul>
   
@@ -339,43 +447,75 @@
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
-               
               
+                
                 
                   <h1>Vraag 8</h1>
                 
                 <h2 id="vraag">Vraag</h2>
 <p>Los op:
-400 - 144 : 4 x 6 = ...</p>
-<p>A: 184<br />
-B: 370<br />
-C: 384<br />
-D: 394</p>
+288 – 8 x 7 : 4 + (48 : 6) x 9 = ?</p>
+<p>A: 202<br />
+B: 346<br />
+C: 562<br />
+D: 4482</p>
 <h2 id="achtergrond-informatie">Achtergrond Informatie</h2>
-<p>Tijdens het rekenen moet je altijd in een <strong>bepaalde volgorde</strong> werken om het juiste resultaat te krijgen.</p>
-<p>Eigenlijk is rekenen net als je kleren aantrekken. Als je eerst je schoenen, dan je sokken, dan je broek, en als laatste je onderbroek aantrekt is het resultaat misschien niet precies wat je in gedachten had.</p>
-<div class="admonition note">
-<p class="admonition-title">Bij het oplossen van een rekensom is de volgorde altijd hetzelfde:</p>
+<p>Tijdens het rekenen moet je altijd in de <strong>juiste volgorde</strong> werken om het goede antwoord te krijgen.</p>
+<p>Eigenlijk is rekenen net als je kleren aantrekken. Als je eerst je schoenen en daarna pas je sokken aatrekt dan gaat er iets niet helemaal goed!</p>
+<hr />
+<p>Soms bestaat een som uit <strong>meerdere bewerkingen</strong>, zoals de volgende som:  </p>
+<p>3 + 2 x 4  </p>
+<p>In dit geval zijn er <strong>twee bewerkingen</strong>, namelijk <strong>optellen én vermenigvuldigen</strong>.<br />
+Als we gewoon van links naar rechts werken krijgen we het volgende:  </p>
+<p>Eerst:<br />
+3 + 2 = 5  </p>
+<p>En daarna:  <br />
+5 x 4 = 20  </p>
+<p>Dus het antwoord dat we krijgen door van links naar rechts te werken is 20. Maar omdat dit de <strong>verkeerde volgorde</strong> is hebben we ook het <strong>verkeerde antwoord</strong> gekregen!  </p>
+<hr />
+<p>De <strong>juiste volgorde</strong> is eerst vermenigvuldigen, en daarna optellen. Dus:  </p>
+<p>Eerst:    <br />
+2 x 4 = 8</p>
+<p>En daarna:<br />
+3 x 8 = 24  </p>
+<p>Het juiste antwoord is dus 24.</p>
+<hr />
+<p>Bij het oplossen van een rekensom is de volgorde altijd hetzelfde:</p>
+<p><img alt="volgorde" src="../img/volgorde.png" /></p>
 <ol>
-<li>Haakjes wegwerken</li>
-<li>Machtsverheffen en worteltrekken (van links naar rechts)</li>
-<li>Vermenigvuldigen en delen (van links naar rechts)</li>
-<li>Optellen en aftrekken (van links naar rechts)</li>
+<li>Eerst de <strong>haakjes</strong> wegwerken.</li>
+<li>Daarna <strong>machtsverheffen</strong> en <strong>worteltrekken</strong> van links naar rechts.</li>
+<li>Daarna <strong>vermenigvuldigen</strong> en <strong>delen</strong> van links naar rechts.</li>
+<li>Als laatste <strong>optellen</strong> en <strong>aftrekken</strong> van links naar rechts.</li>
 </ol>
-</div>
+<p>Om deze volgorde makkelijk te kunnen onthouden kan je de voldende zin gebruiken:</p>
+<p><img alt="hmw" src="../img/hmwvdoa.png" /></p>
 <h2 id="oplossing">Oplossing</h2>
-<p>De vraag is: los de som 400 - 144 : 4 x 6 op in de juiste volgorde.</p>
-<p>Eerst delen:</p>
-<p>\[144 : 4 = 36\]</p>
-<p>De som wordt dan:</p>
-<p>\[400 - 36 * 6 = ?\]</p>
-<p>Dan vermenigvuldigen:</p>
-<p>\[36 * 6 = 216\]</p>
-<p>De som wordt dan:</p>
-<p>\[400 - 216 =?\]</p>
-<p>De oplossing is:</p>
-<p>\[400 - 216 = 184\]</p>
-<p>Het antwoord is dus <strong>184</strong>, het juiste antwoord is <strong>A</strong></p>
+<p>De vraag is: los de som 288 – 8 x 7 : 4 + (48 : 6) x 9 op in de juiste volgorde.</p>
+<h3 id="stap-1-haakjes">Stap 1: haakjes</h3>
+<p>Om te beginnen moeten we eerst de <strong>haakjes</strong> wegwerken:</p>
+<p><img alt="stap1" src="../img/stap1.png" />  </p>
+<p>De som bestaat nu uit de volgende bewerkingen:</p>
+<p><img alt="stap2" src="../img/stap2.png" /></p>
+<h3 id="stap-2-vermenigvuldigen-en-delen">Stap 2: vermenigvuldigen en delen</h3>
+<p>In de volgende stap, gaan we eerst <strong>vermenigvuldigen en delen</strong>, want vermenigvuldigen en delen hebben voorrang op optellen en aftrekken.</p>
+<p><img alt="stap3" src="../img/stap3.png" /></p>
+<p><strong>Vermenigvuldigen en delen</strong> doen we altijd <strong>van links naar rechts</strong>. Dus we beginnen links bij de eerste verminigvuldiging: </p>
+<p><img alt="stap4" src="../img/stap4.png" />  </p>
+<p>Vervolgens werken we naar rechts, waar de volgende bewerking een deling is:  </p>
+<p><img alt="stap5" src="../img/stap5.png" /></p>
+<p>Daarna doen we de laatste vermenigvuldiging:  </p>
+<p><img alt="stap6" src="../img/stap6.png" /></p>
+<h3 id="stap-2-optellen-en-aftrekken">Stap 2: optellen en aftrekken</h3>
+<p>De overige bewerkingen zijn alleen nog maar <strong>optellen en aftrekken</strong>. Ook dit doen we weer <strong>van links naar rechts</strong>:</p>
+<p><img alt="stap7" src="../img/stap7.png" /></p>
+<p>Het antwoord is dus <strong>346</strong>, het juiste antwoord is <strong>B</strong></p>
+                
+                  
+                
+              
+              
+                
               
             </article>
           </div>
@@ -388,7 +528,7 @@ D: 394</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../vraag-5/" title="Vraag 5" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../vraag-6/" title="Vraag 6" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -397,7 +537,7 @@ D: 394</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Vraag 5
+                Vraag 6
               </span>
             </div>
           </a>
@@ -439,8 +579,8 @@ D: 394</p>
       
     </div>
     
-      <script src="../../assets/javascripts/application-16f434a21a.js"></script>
-      <script>var config={url:{base:"../.."}},app=new Application(config);app.initialize()</script>
+      <script src="../../assets/javascripts/application-3964c0cb56.js"></script>
+      <script>app.initialize({url:{base:"../.."}})</script>
       
         <script src="../../mathjax-config.js"></script>
       
