@@ -306,15 +306,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#stap-1-bereken-hoe-lang-hij-onderweg-zou-zijn-als-hij-geen-pauze-had-genomen" title="Stap 1: Bereken hoe lang hij onderweg zou zijn als hij geen pauze had genomen." class="md-nav__link">
-    Stap 1: Bereken hoe lang hij onderweg zou zijn als hij geen pauze had genomen.
+  <a href="#stap-1-bereken-hoe-lang-shamir-onderweg-is-met-pauze" title="Stap 1: Bereken hoe lang Shamir onderweg is met pauze." class="md-nav__link">
+    Stap 1: Bereken hoe lang Shamir onderweg is met pauze.
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#stap-2-bereken-hoe-lang-shamir-werkelijk-onderweg-was" title="Stap 2: Bereken hoe lang Shamir werkelijk onderweg was." class="md-nav__link">
-    Stap 2: Bereken hoe lang Shamir werkelijk onderweg was.
+  <a href="#stap-2-bereken-hoe-lang-shamir-onderweg-zou-zijn-geweest-zonder-pauze" title="Stap 2: Bereken hoe lang Shamir onderweg zou zijn geweest zonder pauze." class="md-nav__link">
+    Stap 2: Bereken hoe lang Shamir onderweg zou zijn geweest zonder pauze.
   </a>
   
 </li>
@@ -410,15 +410,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#stap-1-bereken-hoe-lang-hij-onderweg-zou-zijn-als-hij-geen-pauze-had-genomen" title="Stap 1: Bereken hoe lang hij onderweg zou zijn als hij geen pauze had genomen." class="md-nav__link">
-    Stap 1: Bereken hoe lang hij onderweg zou zijn als hij geen pauze had genomen.
+  <a href="#stap-1-bereken-hoe-lang-shamir-onderweg-is-met-pauze" title="Stap 1: Bereken hoe lang Shamir onderweg is met pauze." class="md-nav__link">
+    Stap 1: Bereken hoe lang Shamir onderweg is met pauze.
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#stap-2-bereken-hoe-lang-shamir-werkelijk-onderweg-was" title="Stap 2: Bereken hoe lang Shamir werkelijk onderweg was." class="md-nav__link">
-    Stap 2: Bereken hoe lang Shamir werkelijk onderweg was.
+  <a href="#stap-2-bereken-hoe-lang-shamir-onderweg-zou-zijn-geweest-zonder-pauze" title="Stap 2: Bereken hoe lang Shamir onderweg zou zijn geweest zonder pauze." class="md-nav__link">
+    Stap 2: Bereken hoe lang Shamir onderweg zou zijn geweest zonder pauze.
   </a>
   
 </li>
@@ -464,36 +464,50 @@ D: 80 minuten</p>
 <h2 id="achtergrond-informatie">Achtergrond Informatie</h2>
 <p><strong>Snelheid</strong> wordt vaak uitgedrukt in <strong>km/u</strong> (kilometer per uur).<br />
 Een snelheid van 80 km/u betekent dat Shamir in één uur 80 kilometer aflegt.<br />
-De meest belangrijke formule voor dit soort somen is de volgende:</p>
+De meest belangrijke formule voor dit soort wegsommen is de volgende:  </p>
+<p><img alt="ast" src="../img/ast.png" /></p>
+<p>Een handige manier om deze formule te onthouden is:</p>
+<p><img alt="ast" src="../img/trommel.png" /></p>
 <div class="admonition note">
-<p class="admonition-title">Tijd = Afstand : Snelheid</p>
-<p>Bijvoorbeeld, je rijdt in een auto met een snelheid van 80 km/u<br />
-en je wilt weten hoe lang het duurt om 120 km rijden.</p>
-<p>afstand = 120 km<br />
-snelheid = 80 km/u<br />
-Dus de tijd is 120 : 80 = 1.5 uur</p>
+<p class="admonition-title">Afstand = Snelheid : Tijd</p>
+<p>Bijvoorbeeld, je rijdt 2 uur lang met een snelheid van 80 km/u<br />
+en je wilt weten hoeveel afstand je hebt afgelegd.</p>
+<p><strong>snelheid</strong> = 80 km/u<br />
+<strong>tijd</strong> = 2 uur<br />
+Dus de <strong>afstand</strong> is 80 x 2 = 160 kilometer</p>
 </div>
-<p>Verder moet je weten dat een uur bestaat uit 60 minuten.<br />
-Bijvoorbeeld, 1.5 uur is 1 uur en 30 (0.5 x 60) minuten.</p>
+<p>Als je niet de afstand maar juist de tijd of de snelheid wilt weten dan kan je dezelfde formule een klein beetje aanpassen:</p>
+<p><img alt="ast" src="../img/sat.png" /></p>
+<p><img alt="ast" src="../img/tas.png" /></p>
 <h2 id="oplossing">Oplossing</h2>
-<p>De vraag is: hoe lang heeft Shamir uitgerust onderweg van F naar S?</p>
-<h3 id="stap-1-bereken-hoe-lang-hij-onderweg-zou-zijn-als-hij-geen-pauze-had-genomen">Stap 1: Bereken hoe lang hij onderweg zou zijn als hij geen pauze had genomen.</h3>
-<p>We gebruiken de formule tijd = afstand : snelheid.<br />
-Afstand = 96 km<br />
+<p>De vraag is: hoe lang heeft Shamir uitgerust onderweg van F naar S?  </p>
+<p>Bijvoorbeeld, stel je voor dat shamir met pauze precies 2 uur onderweg was.<br />
+Maar, we kunnen berekenen dat Shamir zonder pauze eigenlijk maar 1 uur en 45 minuten nodig had om van F naar S te rijden.  </p>
+<p>Dat betekent dat hij dus 15 minuten langer dan nodig onderweg was.<br />
+In dat geval heeft Shamir dus een pauze van 15 minuten genomen.  </p>
+<p><img alt="pauze" src="../img/pauze.png" /></p>
+<p>Om de som op te lossen gaan we dus als volgt te werk: <br />
+1. Bereken hoe lang Shamir onderweg is geweest met pauze.<br />
+2. Bereken hoe lang Shamir onderweg zou zijn geweest zonder pauze.<br />
+3. Het verschil in tijd is gelijk aan de pauze die Shamir heeft genomen.  </p>
+<h3 id="stap-1-bereken-hoe-lang-shamir-onderweg-is-met-pauze">Stap 1: Bereken hoe lang Shamir onderweg is <strong>met pauze</strong>.</h3>
+<p>Shamir vertrok om 10.15 en kwam aan om 12.07 bij punt S.  </p>
+<p>Van 10:15 tot 12:00 is precies 1 uur en 45 minuten.<br />
+Van 12:00 tot 12:07 is precies 7 minuten.  </p>
+<p>Shamir is dus <strong>met pauze</strong> in totaal <strong>1 uur en 52 minuten</strong> (want 45 + 7 = 52) onderweg geweest.</p>
+<h3 id="stap-2-bereken-hoe-lang-shamir-onderweg-zou-zijn-geweest-zonder-pauze">Stap 2: Bereken hoe lang Shamir onderweg zou zijn geweest <strong>zonder pauze</strong>.</h3>
+<p>We gebruiken de formule tijd = afstand : snelheid.  </p>
+<p>Afstand = 96 km<br />
 Snelheid = 80 km/u<br />
-Tijd = 96 : 80</p>
-<span>\[\frac{96}{80}=\frac{48}{40}=\frac{12}{10}=\frac{6}{5}=1\frac15\]</span><p>1<span>\(\frac15\)</span> uur is gelijk aan 1 uur en 12 (60 : 5) minuten.
-Shamir zou zonder pauze dus 1 uur en 12 minuten onderweg zijn.  </p>
-<h3 id="stap-2-bereken-hoe-lang-shamir-werkelijk-onderweg-was">Stap 2: Bereken hoe lang Shamir werkelijk onderweg was.</h3>
-<p>Shamir vertrok om 10.15 en kwam aan om 12.07 bij punt S.<br />
-Van 10:15 tot 12:00 is precies 1 uur en 45 minuten.<br />
-Van 12:00 tot 12:07 is precies 7 minuten.
-Hij is dus on totaal 1 uur en 52 (45 + 7) minuten onderweg geweest.</p>
+Dus de tijd = 96 : 80</p>
+<span>\[\frac{96}{80}=\frac{48}{40}=\frac{12}{10}=\frac{6}{5}=1\frac15\]</span><p>1<span>\(\frac15\)</span> uur is gelijk aan 1 uur en 12 minuten (want 60 : 5 = 12).<br />
+Shamir zou <strong>zonder pauze</strong> dus maar <strong>1 uur en 12 minuten</strong> onderweg zijn.  </p>
 <h3 id="stap-3-bereken-het-verschil-tussen-de-twee-tijden">Stap 3: Bereken het verschil tussen de twee tijden.</h3>
-<p>In stap 1 hebben we berekend dat Shamir zonder pauze 1 uur en 12 minuten onderweg zou zijn.
-In stap 2 hebben we berekend dat Shamir in de werkelijkheid 1 uur en 52 minuten onderweg is geweest.
-Hij heeft er dus 40 minuten langer over gedaan dan noidg. 
-Dat betekent dat hij een pauze heeft genomen van precies <strong>40 minuten</strong>.
+<p>In stap 1 hebben we berekend dat Shamir met pauze 1 uur en 52 minuten onderweg is geweest.
+In stap 2 hebben we berekend dat Shamir zonder pauze maar 1 uur en 12 minuten onderweg zou zijn geweest. </p>
+<p><img alt="pauze" src="../img/pauze2.png" /></p>
+<p>Shamir was dus 40 minuten langer onderweg dan nodig.<br />
+Dat betekent dat hij een pauze heeft genomen van precies <strong>40 minuten</strong>.<br />
 Het juiste antwoord is dus <strong>B</strong>.</p>
                 
                   
