@@ -20,7 +20,7 @@
         fonts: "STIXGeneral,'Arial Unicode MS'"
       }
     },
-    displayAlign: 'center',
+    displayAlign: 'left',
     showProcessingMessages: false,
     messageStyle: 'none'
   };

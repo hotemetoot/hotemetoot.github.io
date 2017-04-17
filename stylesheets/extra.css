@@ -11,6 +11,29 @@ button {
     cursor: pointer;
 }
 
+.card {
+    background-color: #43A047;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+}
+
+.mathblock {
+    /* background-color: #985B79; */
+    background-color: rgba(13,13,13,0.85);
+    /* background: url(http://www.publicdomainpictures.net/pictures/110000/velka/chalkboard-or-blackboard.jpg); */
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    text-align: left;
+    text-decoration: none;
+    margin: 4px 2px;
+}
 
 #input {
     width: 100%;
@@ -22,7 +45,16 @@ button {
     box-sizing: border-box;
 }
 
-#green {
-    background-color: seagreen;
-    color: white;
+.md-main {
+    background-color:#FFFFFF;
+    color: black;
+}
+
+
+down vote
+.frac { display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
 }

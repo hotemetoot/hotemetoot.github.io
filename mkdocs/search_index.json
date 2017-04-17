@@ -57,162 +57,142 @@
         },
         {
             "location": "/glo-toets-2011/vraag-2/",
-            "text": "Vraag\n\n\n75 hg + 60.000 gram + 64 pond + 1200 ons = \u2026 kg \n\n\nA: 111,5 \n\nB: 212,75\n\nC: 219,5\n\nD: 315,5  \n\n\nAchtergrond Informatie\n\n\nAls je wilt beschrijven hoe zwaar iets precies is dan doe je dat meestal met \ngrammen\n of \nkilos\n. Het woord kilo is eigenlijk een afkorting van het woord kilogram. Een \nkilogram\n is \n1000 gram\n (net zoals een kilometer 1000 meter is). In het plaatje hieronder zie je een overzicht van de verschillende gewichten.\n\n\n\n\n\n\nTip\n\n\nKilogram (kg) = 1000g\n\nHectogram (hg) = 100g\n\nDecagram (dag) = 10g\n\nDecigram (dg) = 0.1g\n\nCentigram (cg) = 0.01g\n\nMiligram (mg) = 0.001g  \n\n\n\n\nNaast de offici\u00eble gewichten uit het metriek stelsel zijn er nog twee andere maten die vaak worden gebruikt, pond en ons. Een \npond\n is \n500 gram\n, en een \nons\n is \n100 gram\n.\nHet plaatje hieronder is een slimme manier om dat te onthouden.\n\n\n\n\nOplossing\n\n\nDe vraag is: hoeveel kg krijg je als je 75 hg + 60.000 gram + 64 pond + 1200 ons bij elkaar optelt?\n\n\nStap 1: reken alles eerst om in kilos\n\n\n75 hg = 7500 gram = \n7.5 kg\n\n(1 hg = 100 gram, dus 75 hg = 7500 gram)  \n\n\n60.000 gram = \n60 kg\n\n(1.000 gram = 1 kg, dus 60.000 gram = 60 kg)  \n\n\n64 pond = \n32 kg\n \n\n(2 pond = 1 kg, dus 64 pond = 32 kg)  \n\n\n1200 ons = \n120 kg\n \n\n(10 ons = 1 kg, dus 1200 ons is 120 kg)  \n\n\nStap 2: tel alles bij elkaar op\n\n\n7.5 + 60 + 32 + 120 = 219,5\n\nHet juiste antwooord is dus \n219,5 kg\n, antwoord \nC",
+            "text": "Gewichten\n\n\n75 hg + 60.000 gram + 64 pond + 1200 ons = \u2026 kg \n\n\nA: 111,5 \n\nB: 212,75\n\nC: 219,5\n\nD: 315,5  \n\n\nGegeven Informatie\n\n\n75 hg\n\n\n\n60.000 gram\n\n\n\n64 pond\n\n\n\n1200 ons\n\n\n\nGevraagde Informatie\n\n\nHet totale gewicht in \nkilos\n\n\nOplossing\n\n\nWe maken gebruik van de afbeelding hieronder.  \n\n\nElke stap van links naar rechts is maal 10. Bijvoorbeeld: 10kg = 100hg.\n\nElke stap van rechts naar links is gedeeld door 10. Bijvoorbeeld: 100dg = 10g. \n\n\n\n\nNaast de offici\u00eble gewichten uit het metriek stelsel zijn er nog twee andere maten die vaak worden gebruikt, pond en ons. Een \npond\n is \n500 gram\n, en een \nons\n is \n100 gram\n.\n\n\nStap 1: eerst rekenen we alles om in kilos\n\n\n\n\n\n75 hg = 7.5 kg\n\n\n\n60.000 gram = 60 kg\n  \n\n\n64 pond = 32 kg\n   \n\n\n1200 ons = 120 kg\n   \n\n\n\n\n\nStap 2: tel alles bij elkaar op\n\n\n\n7.5 + 60 + 32 + 120 = 219,5  \n\n\n\n\nHet juiste antwooord is \nC",
             "title": "Vraag 2"
         },
         {
-            "location": "/glo-toets-2011/vraag-2/#vraag",
+            "location": "/glo-toets-2011/vraag-2/#gewichten",
             "text": "75 hg + 60.000 gram + 64 pond + 1200 ons = \u2026 kg   A: 111,5  \nB: 212,75 \nC: 219,5 \nD: 315,5",
-            "title": "Vraag"
+            "title": "Gewichten"
         },
         {
-            "location": "/glo-toets-2011/vraag-2/#achtergrond-informatie",
-            "text": "Als je wilt beschrijven hoe zwaar iets precies is dan doe je dat meestal met  grammen  of  kilos . Het woord kilo is eigenlijk een afkorting van het woord kilogram. Een  kilogram  is  1000 gram  (net zoals een kilometer 1000 meter is). In het plaatje hieronder zie je een overzicht van de verschillende gewichten.    Tip  Kilogram (kg) = 1000g \nHectogram (hg) = 100g \nDecagram (dag) = 10g \nDecigram (dg) = 0.1g \nCentigram (cg) = 0.01g \nMiligram (mg) = 0.001g     Naast de offici\u00eble gewichten uit het metriek stelsel zijn er nog twee andere maten die vaak worden gebruikt, pond en ons. Een  pond  is  500 gram , en een  ons  is  100 gram .\nHet plaatje hieronder is een slimme manier om dat te onthouden.",
-            "title": "Achtergrond Informatie"
+            "location": "/glo-toets-2011/vraag-2/#gegeven-informatie",
+            "text": "75 hg  60.000 gram  64 pond  1200 ons",
+            "title": "Gegeven Informatie"
+        },
+        {
+            "location": "/glo-toets-2011/vraag-2/#gevraagde-informatie",
+            "text": "Het totale gewicht in  kilos",
+            "title": "Gevraagde Informatie"
         },
         {
             "location": "/glo-toets-2011/vraag-2/#oplossing",
-            "text": "De vraag is: hoeveel kg krijg je als je 75 hg + 60.000 gram + 64 pond + 1200 ons bij elkaar optelt?",
+            "text": "We maken gebruik van de afbeelding hieronder.    Elke stap van links naar rechts is maal 10. Bijvoorbeeld: 10kg = 100hg. \nElke stap van rechts naar links is gedeeld door 10. Bijvoorbeeld: 100dg = 10g.    Naast de offici\u00eble gewichten uit het metriek stelsel zijn er nog twee andere maten die vaak worden gebruikt, pond en ons. Een  pond  is  500 gram , en een  ons  is  100 gram .",
             "title": "Oplossing"
         },
         {
-            "location": "/glo-toets-2011/vraag-2/#stap-1-reken-alles-eerst-om-in-kilos",
-            "text": "75 hg = 7500 gram =  7.5 kg \n(1 hg = 100 gram, dus 75 hg = 7500 gram)    60.000 gram =  60 kg \n(1.000 gram = 1 kg, dus 60.000 gram = 60 kg)    64 pond =  32 kg   \n(2 pond = 1 kg, dus 64 pond = 32 kg)    1200 ons =  120 kg   \n(10 ons = 1 kg, dus 1200 ons is 120 kg)",
-            "title": "Stap 1: reken alles eerst om in kilos"
+            "location": "/glo-toets-2011/vraag-2/#stap-1-eerst-rekenen-we-alles-om-in-kilos",
+            "text": "75 hg = 7.5 kg  60.000 gram = 60 kg    64 pond = 32 kg     1200 ons = 120 kg",
+            "title": "Stap 1: eerst rekenen we alles om in kilos"
         },
         {
             "location": "/glo-toets-2011/vraag-2/#stap-2-tel-alles-bij-elkaar-op",
-            "text": "7.5 + 60 + 32 + 120 = 219,5 \nHet juiste antwooord is dus  219,5 kg , antwoord  C",
+            "text": "7.5 + 60 + 32 + 120 = 219,5    Het juiste antwooord is  C",
             "title": "Stap 2: tel alles bij elkaar op"
         },
         {
             "location": "/glo-toets-2011/vraag-3/",
-            "text": "Vraag\n\n\nVan 9:23 uur p.m. tot 2:40 am is?\n\n\nA: 5 uren en 17 minuten\n\nB: 5 uren en 7 minuten\n\nC:  6 uren en 3 minuten\n\nD: 6 uren en 43 minuten  \n\n\nAchtergrond Informatie\n\n\nEen volle dag bestaat uit 24 uren. De eerste helft noemen we \"a.m.\"  De tweede helft noemen we \"p.m.\" \n\n\n\n\n\n\nEzelsbruggetje\n\n\na.m. = akelige morgen\n\np.m. = prettige middag\n\n\n\n\nVerder moet je weten dat \neen uur bestaat uit 60 minuten\n. \n\nBijvoorbeeld, van 2:45 p.m tot 3:00 p.m. is dus 15 minuten.  \n\n\nOplossing\n\n\nDe vraag is: hoeveel uren en minuten is het van 9:23 uur p.m. ('s avonds) tot 2.40 a.m. (heel vroeg in de ochtend)?\n\nEr zijn verschillende manieren om dit op te lossen.\n\n\nMethode 1\n\n\nE\u00e9n manier om het antwoord te vinden is door de som in kleine stapjes te verdelen:\n\n\nvan \n9:23\n p.m. tot \n10:00\n p.m. is \n37 minuten\n (want 60 - 23 = 37)\n\nvan \n10:00\n p.m. tot \n2:00\n p.m is \n4 uren\n\nvan \n2:00\n a.m. tot \n2:40\n a.m. is \n40 minuten\n\n\n\n\nSamen is het dus 4 uur en 77 minuten.\n\n77 minuten is gelijk aan 1 uur en 17 minuten (want een uur is 60 minuten).\n\nHet antwoord is dus \n5 uur en 17 minuten\n, antwoord \nA\n\n\nMethode 2\n\n\nEen andere manier is om eerst de uren en daarna de minuten uit te rekenen.\n\n\nVan \n9:23 a.m\n. tot \n2:23 p.m.\n is \n5 uren\n.\n\nVan \n2:23 p.m.\n tot \n2:40 p.m.\n = 17 minuten (want 40 - 23 = 17) \n\n\n\n\nSamen is het dus \n5 uur en 17 minuten,\n antwoord \nA",
+            "text": "AM en PM\n\n\nVan 9:23 uur p.m. tot 2:40 am is?\n\n\nA: 5 uren en 17 minuten\n\nB: 5 uren en 7 minuten\n\nC:  6 uren en 3 minuten\n\nD: 6 uren en 43 minuten  \n\n\nGegeven Informatie\n\n\nStart = 9:23 p.m.\n\n\nEind = 2:40 a.m.\n\n\nGevraagde Informatie\n\n\nWat is de tijd in uren en minuten?\n\n\nOplossing\n\n\nEen volle dag bestaat uit 24 uren.\n\nDe eerste helft noemen we \na.m.\n  De tweede helft noemen we \np.m.\n \n\n\n\n\n\n\nEzelsbruggetje\n\n\na.m. = akelige morgen\n\np.m. = prettige middag\n\n\n\n\nStap 1\n\n\nWe verdelen de som in kleine stapjes:\n\n\n\nVan 9:23 p.m. tot 10:00 p.m. is 37 minuten\n\n\nVan 10:00 p.m. tot 2:00 a.m is 4 uren\n\n\nVan 2:00 a.m. tot 2:40 a.m. is 40 minuten\n\n\n\n\nHieronder zie je dezelfde berekening in een plaatje:\n\n\n\n\nStap 2\n\n\nWe tellen alles bij elkaar op:\n\n\n\n37 minuten + 4 uur + 40 minuten = 5 uur en 17 minuten\n\n\n\n\nHet juiste antwoord is dus \nA",
             "title": "Vraag 3"
         },
         {
-            "location": "/glo-toets-2011/vraag-3/#vraag",
+            "location": "/glo-toets-2011/vraag-3/#am-en-pm",
             "text": "Van 9:23 uur p.m. tot 2:40 am is?  A: 5 uren en 17 minuten \nB: 5 uren en 7 minuten \nC:  6 uren en 3 minuten \nD: 6 uren en 43 minuten",
-            "title": "Vraag"
+            "title": "AM en PM"
         },
         {
-            "location": "/glo-toets-2011/vraag-3/#achtergrond-informatie",
-            "text": "Een volle dag bestaat uit 24 uren. De eerste helft noemen we \"a.m.\"  De tweede helft noemen we \"p.m.\"     Ezelsbruggetje  a.m. = akelige morgen \np.m. = prettige middag   Verder moet je weten dat  een uur bestaat uit 60 minuten .  \nBijvoorbeeld, van 2:45 p.m tot 3:00 p.m. is dus 15 minuten.",
-            "title": "Achtergrond Informatie"
+            "location": "/glo-toets-2011/vraag-3/#gegeven-informatie",
+            "text": "Start = 9:23 p.m.  Eind = 2:40 a.m.",
+            "title": "Gegeven Informatie"
+        },
+        {
+            "location": "/glo-toets-2011/vraag-3/#gevraagde-informatie",
+            "text": "Wat is de tijd in uren en minuten?",
+            "title": "Gevraagde Informatie"
         },
         {
             "location": "/glo-toets-2011/vraag-3/#oplossing",
-            "text": "De vraag is: hoeveel uren en minuten is het van 9:23 uur p.m. ('s avonds) tot 2.40 a.m. (heel vroeg in de ochtend)? \nEr zijn verschillende manieren om dit op te lossen.",
+            "text": "Een volle dag bestaat uit 24 uren. \nDe eerste helft noemen we  a.m.   De tweede helft noemen we  p.m.      Ezelsbruggetje  a.m. = akelige morgen \np.m. = prettige middag",
             "title": "Oplossing"
         },
         {
-            "location": "/glo-toets-2011/vraag-3/#methode-1",
-            "text": "E\u00e9n manier om het antwoord te vinden is door de som in kleine stapjes te verdelen:  van  9:23  p.m. tot  10:00  p.m. is  37 minuten  (want 60 - 23 = 37) \nvan  10:00  p.m. tot  2:00  p.m is  4 uren \nvan  2:00  a.m. tot  2:40  a.m. is  40 minuten   Samen is het dus 4 uur en 77 minuten. \n77 minuten is gelijk aan 1 uur en 17 minuten (want een uur is 60 minuten). \nHet antwoord is dus  5 uur en 17 minuten , antwoord  A",
-            "title": "Methode 1"
+            "location": "/glo-toets-2011/vraag-3/#stap-1",
+            "text": "We verdelen de som in kleine stapjes:  Van 9:23 p.m. tot 10:00 p.m. is 37 minuten  Van 10:00 p.m. tot 2:00 a.m is 4 uren  Van 2:00 a.m. tot 2:40 a.m. is 40 minuten   Hieronder zie je dezelfde berekening in een plaatje:",
+            "title": "Stap 1"
         },
         {
-            "location": "/glo-toets-2011/vraag-3/#methode-2",
-            "text": "Een andere manier is om eerst de uren en daarna de minuten uit te rekenen.  Van  9:23 a.m . tot  2:23 p.m.  is  5 uren . \nVan  2:23 p.m.  tot  2:40 p.m.  = 17 minuten (want 40 - 23 = 17)    Samen is het dus  5 uur en 17 minuten,  antwoord  A",
-            "title": "Methode 2"
+            "location": "/glo-toets-2011/vraag-3/#stap-2",
+            "text": "We tellen alles bij elkaar op:  37 minuten + 4 uur + 40 minuten = 5 uur en 17 minuten   Het juiste antwoord is dus  A",
+            "title": "Stap 2"
         },
         {
             "location": "/glo-toets-2011/vraag-4/",
-            "text": "Vraag\n\n\nEen kapitaal is SRD 12.000,- groot en staat uit tegen \n\\(4\\frac12\\)\n % rente per jaar.\n\n\nNa hoeveel maanden brengt het kapitaal SRD 360,- aan rente op?\n\n\nA: 8 maanden\n\nB: 6 maanden\n\nC: 9 maanden\n\nD: 18 maanden\n\n\nAchtergrond Informatie\n\n\nEen \nkapitaal\n is een groot bedrag geld, in dit geval 12.000,- SRD.\n\n\nRente\n is geld dat je verdient als je geld op de bank hebt staan, of dat je moet betalen als je geld van de bank leent.\n\n\nEen \nprocent\n is \n\\(\\frac1{100}\\)\n deel van een getal of bedrag. \nBijvoorbeeld, 1 procent van 12.000 is \n\\(\\frac{12.000}{100}\\)\n = 120\n\n\nOplossing\n\n\nDe vraag is: als je 12.000,- SRD op de bank hebt staan en je verdient per jaar \n\\(4\\frac12\\)\n % rente, hoeveel maanden duurt het dan om 360,- SRD te verdienen?\n\n\nStap 1: bereken hoeveel rente je verdient in 1 jaar\n\n\n1 % van SRD 12.000,- = SRD 120\n\n\n\n\n\n\ndus \n\\(4\\frac12\\)\n% van SRD 12.000,- is \n\\(4\\frac12\\)\n x 120 = SRD 540,-\n\n\n\n\nPer jaar verdien je dus SRD 540,- aan rente.\n\n\nStap 2: bereken hoeveel rente je verdient per maand\n\n\nPer jaar verdien je SRD 540.\nEen jaar heeft twaalf maanden.\nJe moet dus 540 delen door 12, dat gaat het makkelijkst met een staartdeling:\n\n\n\\[\n\\begin{array}{r}\n      \\underline{045} \\\\\n  12 | 540 \\\\\n      \\underline{0\\phantom{00}} \\\\\n        54\\phantom0 \\\\\n        \\underline{48\\phantom{0}} \\\\\n         60\\\\\n         \\underline{60}\\\\\n         0\\\\\n\\end{array}\n\\]\nHet antwoord is 45, je verdient dus SRD 45 per maand\n\n\nStap 3: bereken hoeveel maanden je nodig hebt om 360 SRD te verdienen\n\n\nPer maand verdien je 45 SRD\nJe moet dus 360 delen door 45\nDat doen we weer met een staartdeling:\n\n\n\\[\n\\begin{array}{r}\n      \\underline{008} \\\\\n  45 | 360 \\\\\n      \\underline{0\\phantom{00}} \\\\\n        36\\phantom0 \\\\\n        \\underline{00\\phantom{0}} \\\\\n         360\\\\\n         \\underline{360}\\\\\n         0\\\\\n\\end{array}\n\\]\nHet antwoord is 8, je hebt dus \n8 maanden\n nodig om 360,- SRD te verdienen. Het juiste antwoord is \nA",
+            "text": "Kapitaal Som\n\n\nEen kapitaal is SRD 12.000,- groot en staat uit tegen 4\n\\(\\frac12\\)\n % rente per jaar.\n\n\nNa hoeveel maanden brengt het kapitaal SRD 360,- aan rente op?\n\n\nA: 8 maanden\n\nB: 6 maanden\n\nC: 9 maanden\n\nD: 18 maanden\n\n\nGegeven Informatie\n\n\nKapitaal = 12.000 SRD\n\n\n\nRente per jaar = 4.5%\n\n\n\nOpbrengst = 360 SRD\n\n\n\nGevraagde Informatie\n\n\nHoeveel \nmaanden\n duurt het om 360 SRD te verdienen?\n\n\nOplossing\n\n\nWe maken gebruik van de formule: \n\n\n\n$$\n    \\sf \\frac{opbrengst\\; in\\; SRD}{rente\\; per\\; jaar\\; in\\; SRD}=tijd\\; in\\; jaren\n$$\n\n\n\n\nDe opbrengst in SRD (360) is al gegeven in de som.\n\nDe rente per jaar in SRD moeten we nog berekenen. \n\n\nStap 1: bereken de rente per jaar in SRD\n\n\n\n\n\n\\[\n\\sf 1\\; procent\\; van\\; SRD\\; 12.000 = SRD 120  \n\\]\n\\[\n\\sf 4\\frac12\\ procent\\; van\\; SRD\\; 12.000 = SRD 540  \n\\]\n\n\n\nStap 2: deel de opbrengst in SRD door de rente per jaar in SRD\n\n\n\n$$\n\\sf \\frac{opbrengst\\; in\\; SRD}{rente\\; per\\; jaar\\; in\\; SRD}=\n\\frac{360}{540}=\\frac{36}{54}=\\frac69=\\frac23\\; jaar\n$$\n\n\n\n\nStap 2: reken om van jaren naar maanden\n\n\nEen jaar heeft 12 maanden. \n\n\n\n$$\n\\sf \\frac23\\; jaar\\; is\\; gelijk\\; aan\\; \\frac23\\; x\\; 12\\; =\\; 8\\; maanden\n$$\n\n\n\n\nHet juiste antwoord is \nA",
             "title": "Vraag 4"
         },
         {
-            "location": "/glo-toets-2011/vraag-4/#vraag",
-            "text": "Een kapitaal is SRD 12.000,- groot en staat uit tegen  \\(4\\frac12\\)  % rente per jaar.  Na hoeveel maanden brengt het kapitaal SRD 360,- aan rente op?  A: 8 maanden \nB: 6 maanden \nC: 9 maanden \nD: 18 maanden",
-            "title": "Vraag"
+            "location": "/glo-toets-2011/vraag-4/#kapitaal-som",
+            "text": "Een kapitaal is SRD 12.000,- groot en staat uit tegen 4 \\(\\frac12\\)  % rente per jaar.  Na hoeveel maanden brengt het kapitaal SRD 360,- aan rente op?  A: 8 maanden \nB: 6 maanden \nC: 9 maanden \nD: 18 maanden",
+            "title": "Kapitaal Som"
         },
         {
-            "location": "/glo-toets-2011/vraag-4/#achtergrond-informatie",
-            "text": "Een  kapitaal  is een groot bedrag geld, in dit geval 12.000,- SRD.  Rente  is geld dat je verdient als je geld op de bank hebt staan, of dat je moet betalen als je geld van de bank leent.  Een  procent  is  \\(\\frac1{100}\\)  deel van een getal of bedrag. \nBijvoorbeeld, 1 procent van 12.000 is  \\(\\frac{12.000}{100}\\)  = 120",
-            "title": "Achtergrond Informatie"
+            "location": "/glo-toets-2011/vraag-4/#gegeven-informatie",
+            "text": "Kapitaal = 12.000 SRD  Rente per jaar = 4.5%  Opbrengst = 360 SRD",
+            "title": "Gegeven Informatie"
+        },
+        {
+            "location": "/glo-toets-2011/vraag-4/#gevraagde-informatie",
+            "text": "Hoeveel  maanden  duurt het om 360 SRD te verdienen?",
+            "title": "Gevraagde Informatie"
         },
         {
             "location": "/glo-toets-2011/vraag-4/#oplossing",
-            "text": "De vraag is: als je 12.000,- SRD op de bank hebt staan en je verdient per jaar  \\(4\\frac12\\)  % rente, hoeveel maanden duurt het dan om 360,- SRD te verdienen?",
+            "text": "We maken gebruik van de formule:   \n$$\n    \\sf \\frac{opbrengst\\; in\\; SRD}{rente\\; per\\; jaar\\; in\\; SRD}=tijd\\; in\\; jaren\n$$  De opbrengst in SRD (360) is al gegeven in de som. \nDe rente per jaar in SRD moeten we nog berekenen.",
             "title": "Oplossing"
         },
         {
-            "location": "/glo-toets-2011/vraag-4/#stap-1-bereken-hoeveel-rente-je-verdient-in-1-jaar",
-            "text": "1 % van SRD 12.000,- = SRD 120    dus  \\(4\\frac12\\) % van SRD 12.000,- is  \\(4\\frac12\\)  x 120 = SRD 540,-   Per jaar verdien je dus SRD 540,- aan rente.",
-            "title": "Stap 1: bereken hoeveel rente je verdient in 1 jaar"
+            "location": "/glo-toets-2011/vraag-4/#stap-1-bereken-de-rente-per-jaar-in-srd",
+            "text": "\\[\n\\sf 1\\; procent\\; van\\; SRD\\; 12.000 = SRD 120  \n\\] \\[\n\\sf 4\\frac12\\ procent\\; van\\; SRD\\; 12.000 = SRD 540  \n\\]",
+            "title": "Stap 1: bereken de rente per jaar in SRD"
         },
         {
-            "location": "/glo-toets-2011/vraag-4/#stap-2-bereken-hoeveel-rente-je-verdient-per-maand",
-            "text": "Per jaar verdien je SRD 540.\nEen jaar heeft twaalf maanden.\nJe moet dus 540 delen door 12, dat gaat het makkelijkst met een staartdeling:  \\[\n\\begin{array}{r}\n      \\underline{045} \\\\\n  12 | 540 \\\\\n      \\underline{0\\phantom{00}} \\\\\n        54\\phantom0 \\\\\n        \\underline{48\\phantom{0}} \\\\\n         60\\\\\n         \\underline{60}\\\\\n         0\\\\\n\\end{array}\n\\] Het antwoord is 45, je verdient dus SRD 45 per maand",
-            "title": "Stap 2: bereken hoeveel rente je verdient per maand"
+            "location": "/glo-toets-2011/vraag-4/#stap-2-deel-de-opbrengst-in-srd-door-de-rente-per-jaar-in-srd",
+            "text": "$$\n\\sf \\frac{opbrengst\\; in\\; SRD}{rente\\; per\\; jaar\\; in\\; SRD}=\n\\frac{360}{540}=\\frac{36}{54}=\\frac69=\\frac23\\; jaar\n$$",
+            "title": "Stap 2: deel de opbrengst in SRD door de rente per jaar in SRD"
         },
         {
-            "location": "/glo-toets-2011/vraag-4/#stap-3-bereken-hoeveel-maanden-je-nodig-hebt-om-360-srd-te-verdienen",
-            "text": "Per maand verdien je 45 SRD\nJe moet dus 360 delen door 45\nDat doen we weer met een staartdeling:  \\[\n\\begin{array}{r}\n      \\underline{008} \\\\\n  45 | 360 \\\\\n      \\underline{0\\phantom{00}} \\\\\n        36\\phantom0 \\\\\n        \\underline{00\\phantom{0}} \\\\\n         360\\\\\n         \\underline{360}\\\\\n         0\\\\\n\\end{array}\n\\] Het antwoord is 8, je hebt dus  8 maanden  nodig om 360,- SRD te verdienen. Het juiste antwoord is  A",
-            "title": "Stap 3: bereken hoeveel maanden je nodig hebt om 360 SRD te verdienen"
-        },
-        {
-            "location": "/glo-toets-2011/vraag-4b/",
-            "text": "Vraag\n\n\nEen kapitaal is SRD 12.000,- groot en staat uit tegen \n\\(4\\frac12\\)\n % rente per jaar.\n\n\nNa hoeveel maanden brengt het kapitaal SRD 360,- aan rente op?\n\n\nA: 8 maanden\n\nB: 6 maanden\n\nC: 9 maanden\n\nD: 18 maanden\n\n\nAchtergrond Informatie\n\n\nEen \nkapitaal\n is een groot bedrag geld, in dit geval 12.000,- SRD.\n\n\nRente\n is geld dat je verdient als je geld op de bank hebt staan, of dat je moet betalen als je geld van de bank leent.\n\n\nEen \nprocent\n is \n\\(\\frac{1}{100}\\)\n deel van een getal of bedrag. \nBijvoorbeeld, 1 procent van 12.000 is \n\\(\\frac{1200}{100}\\)\n = 120\n\n\nOplossing\n\n\nDe vraag is: als je 12.000,- SRD op de bank hebt staan en je verdient per jaar \n\\(4\\frac12\\)\n % rente, hoeveel maanden duurt het dan om 360,- SRD te verdienen?\n\n\nStap 1: bereken hoeveel rente je verdient in 1 jaar\n\n\n1 % van SRD 12.000 = SRD 120\n\ndus \n\\(4\\frac12\\)\n % van SRD 12.000 is gelijk aan \n\\(4\\frac12\\)\n x 120  \n\n\n\\(4\\frac12\\)\n x 120 = SRD 540\n\n\nPer jaar verdien je dus SRD 540,- aan rente.\n\n\nStap 2: bereken de verhouding tussen 360 en 540\n\n\n\n\nWaarom is de verhouding belangrijk?\n\n\nStel je voor dat de vraag is: je verdient per jaar 540 SRD aan rente, na hoeveel maanden verdien je 1080 SRD? \n\n\nDat is niet zo moeilijk, want 1080 is precies twee keer zoveel als 540. Het duurt dus 2 jaar om 1080 SRD te verdienen. \n\n\n\\[\n\\frac{1080}{\\phantom0540}=\\frac{108}{\\phantom054}=2\n\\]\nOf stel dat de vraag is: je verdient per jaar 540 SRD aan rente,  na hoeveel maanden verdien je 270 SRD? \n\n\nOok dat zie je snel, want 270 is precies de helft van 540. Het duurt dus een half jaar, wat gelijk is aan zes maanden.\n\n\n\\[\n\\frac{270}{540}=\\frac{27}{54}=\\frac12\n\\]\nAls je eenmaal de verhouding tussen de twee bedragen weet is het dus simpel om het aantal maanden te berekenen.\n\n\n\n\nMaar wat is de verhouding tussen 360 en 540?\n\n\n\\[\n\\frac{360}{540}=\\frac{36}{54}=\\frac69=\\frac23\n\\]\nHet duurt dus \n\\(\\frac23\\)\n jaar om 360 SRD te verdienen\n\n\nStap 3: bereken het aantal maanden\n\n\nHet enige wat we nu nog moeten doen is \n\\(\\frac23\\)\n jaar omrekenen naar maanden.\n\n\n\\[\\frac23 * 12 = \\frac{24}{3} = 8\\]\nHet duurt dus \n8 maanden\n om 360,- SRD te verdienen, het antwoord is dus \nA",
-            "title": "Vraag 4b"
-        },
-        {
-            "location": "/glo-toets-2011/vraag-4b/#vraag",
-            "text": "Een kapitaal is SRD 12.000,- groot en staat uit tegen  \\(4\\frac12\\)  % rente per jaar.  Na hoeveel maanden brengt het kapitaal SRD 360,- aan rente op?  A: 8 maanden \nB: 6 maanden \nC: 9 maanden \nD: 18 maanden",
-            "title": "Vraag"
-        },
-        {
-            "location": "/glo-toets-2011/vraag-4b/#achtergrond-informatie",
-            "text": "Een  kapitaal  is een groot bedrag geld, in dit geval 12.000,- SRD.  Rente  is geld dat je verdient als je geld op de bank hebt staan, of dat je moet betalen als je geld van de bank leent.  Een  procent  is  \\(\\frac{1}{100}\\)  deel van een getal of bedrag. \nBijvoorbeeld, 1 procent van 12.000 is  \\(\\frac{1200}{100}\\)  = 120",
-            "title": "Achtergrond Informatie"
-        },
-        {
-            "location": "/glo-toets-2011/vraag-4b/#oplossing",
-            "text": "De vraag is: als je 12.000,- SRD op de bank hebt staan en je verdient per jaar  \\(4\\frac12\\)  % rente, hoeveel maanden duurt het dan om 360,- SRD te verdienen?",
-            "title": "Oplossing"
-        },
-        {
-            "location": "/glo-toets-2011/vraag-4b/#stap-1-bereken-hoeveel-rente-je-verdient-in-1-jaar",
-            "text": "1 % van SRD 12.000 = SRD 120 \ndus  \\(4\\frac12\\)  % van SRD 12.000 is gelijk aan  \\(4\\frac12\\)  x 120    \\(4\\frac12\\)  x 120 = SRD 540  Per jaar verdien je dus SRD 540,- aan rente.",
-            "title": "Stap 1: bereken hoeveel rente je verdient in 1 jaar"
-        },
-        {
-            "location": "/glo-toets-2011/vraag-4b/#stap-2-bereken-de-verhouding-tussen-360-en-540",
-            "text": "Waarom is de verhouding belangrijk?  Stel je voor dat de vraag is: je verdient per jaar 540 SRD aan rente, na hoeveel maanden verdien je 1080 SRD?   Dat is niet zo moeilijk, want 1080 is precies twee keer zoveel als 540. Het duurt dus 2 jaar om 1080 SRD te verdienen.   \\[\n\\frac{1080}{\\phantom0540}=\\frac{108}{\\phantom054}=2\n\\] Of stel dat de vraag is: je verdient per jaar 540 SRD aan rente,  na hoeveel maanden verdien je 270 SRD?   Ook dat zie je snel, want 270 is precies de helft van 540. Het duurt dus een half jaar, wat gelijk is aan zes maanden.  \\[\n\\frac{270}{540}=\\frac{27}{54}=\\frac12\n\\] Als je eenmaal de verhouding tussen de twee bedragen weet is het dus simpel om het aantal maanden te berekenen.   Maar wat is de verhouding tussen 360 en 540?  \\[\n\\frac{360}{540}=\\frac{36}{54}=\\frac69=\\frac23\n\\] Het duurt dus  \\(\\frac23\\)  jaar om 360 SRD te verdienen",
-            "title": "Stap 2: bereken de verhouding tussen 360 en 540"
-        },
-        {
-            "location": "/glo-toets-2011/vraag-4b/#stap-3-bereken-het-aantal-maanden",
-            "text": "Het enige wat we nu nog moeten doen is  \\(\\frac23\\)  jaar omrekenen naar maanden.  \\[\\frac23 * 12 = \\frac{24}{3} = 8\\] Het duurt dus  8 maanden  om 360,- SRD te verdienen, het antwoord is dus  A",
-            "title": "Stap 3: bereken het aantal maanden"
+            "location": "/glo-toets-2011/vraag-4/#stap-2-reken-om-van-jaren-naar-maanden",
+            "text": "Een jaar heeft 12 maanden.   \n$$\n\\sf \\frac23\\; jaar\\; is\\; gelijk\\; aan\\; \\frac23\\; x\\; 12\\; =\\; 8\\; maanden\n$$  Het juiste antwoord is  A",
+            "title": "Stap 2: reken om van jaren naar maanden"
         },
         {
             "location": "/glo-toets-2011/vraag-5/",
-            "text": "Vraag\n\n\n\n\nAlleen de muur wordt aan de voor- en achterkant geschilderd.\n\nHoeveel vierkante meter wordt geschilderd?\n\n\nA: 40 m2\n\nB: 74 m2\n\nC: 80 m2\n\nD: 100 m2\n\n\nAchtergrond Informatie\n\n\nEen \nmeter\n is een \nlengte\n maat. Een huis kan bijvoorbeeld 4 meter hoog zijn, of een voetbalveld kan 100 meter lang zijn.\n\n\nEen \nvierkante meter\n is een \noppervlakte\n maat. Je slaapkamer is bijvoorbeeld misschien 8 vierkante meter groot, en je bureau is 1 vierkante meter.\n\n\nOm een oppervlakte van een rechthoek zoals een muur te berekenen vermenigvuldig je de lengte met de hoogte: \noppervlakte = lengte x hoogte\n. \n\n\nOm de oppervlakte van een rechthoek zoals een voetbalveld te berekenen vermenig vuldig je de lengte met de breedte: \noppervlakte = lengte x breedte\n\n\nOplossing\n\n\nDe vraag is: wat is de oppervlakte van de voorkant en de achterkant van de muur bij elkaar opgeteld?\n\n\nStap 1: bereken de oppervlakte van de voorkant van de muur\n\n\nDe lengte is 16m\n\nDe hoogte is \n\\(2\\frac12\\)\n meter\n\nDe oppervlakte van de voorkant is dus 16 x \n\\(2\\frac12\\)\n = 40 m2\n\n\n\n\nTip\n\n\nOm 16 x \n\\(2\\frac12\\)\n te berekenen kan je de som in stukjes oplossen:\n\n16 x 2 = 32\n\n16 x \n\\(\\frac12\\)\n = 8\n\n32 + 8 = 40\n\n\n\n\nStap 2: bereken de oppervlakte van de voor  en achterkant van de muur\n\n\nDe voorkant en de achterkant van de muur zijn even groot\n\nDe voorkant en de achterkant zijn dus elk 40 m2\n\nIn totaal moet er dus \n40 + 40 = 80 m2\n geschilderd worden.\n\nHet juiste antwoord is dus \nC",
+            "text": "Oppervlakte\n\n\n\n\nAlleen de muur wordt aan de voor- en achterkant geschilderd.\n\nHoeveel vierkante meter wordt geschilderd?\n\n\nA: 40 m2\n\nB: 74 m2\n\nC: 80 m2\n\nD: 100 m2\n\n\nGegeven Informatie\n\n\nHoogte muur = 2.5 m\n\n\nBreedte muur = 2.5 m\n\n\nDe voor- en achterkant worden geschilderd\n\n\nOplossing\n\n\nWe maken gebruik van de formule:\n\n\n\n$$\n    \\sf hoogte \\; x \\; breedte \\; = oppervlakte\n$$\n\n\n\n\nEerst berekenen we de oppervlakte van de muur.\n\nDaarna vermenigvuldigen we deze oppervlakte met 2.\n\n\nStap 1: bereken de oppervlakte van de muur\n\n\n\n$$\n    \\sf 16m \\; x \\; 2.5m = \\; 40 \\; m2\n$$\n\n\n\n\n\n\nTip\n\n\nOm 16 x \n\\(2\\frac12\\)\n te berekenen kan je de som in stukjes oplossen:\n\n16 x 2 = 32\n\n16 x \n\\(\\frac12\\)\n = 8\n\n32 + 8 = 40\n\n\n\n\nStap 2: bereken de oppervlakte van de voor  en achterkant van de muur\n\n\n\n$$\n    \\sf 40 \\; x \\; 2 = \\; 80 \\; m2\n$$\n\n\n\nHet juiste antwoord is dus \nC",
             "title": "Vraag 5"
         },
         {
-            "location": "/glo-toets-2011/vraag-5/#vraag",
+            "location": "/glo-toets-2011/vraag-5/#oppervlakte",
             "text": "Alleen de muur wordt aan de voor- en achterkant geschilderd. \nHoeveel vierkante meter wordt geschilderd?  A: 40 m2 \nB: 74 m2 \nC: 80 m2 \nD: 100 m2",
-            "title": "Vraag"
+            "title": "Oppervlakte"
         },
         {
-            "location": "/glo-toets-2011/vraag-5/#achtergrond-informatie",
-            "text": "Een  meter  is een  lengte  maat. Een huis kan bijvoorbeeld 4 meter hoog zijn, of een voetbalveld kan 100 meter lang zijn.  Een  vierkante meter  is een  oppervlakte  maat. Je slaapkamer is bijvoorbeeld misschien 8 vierkante meter groot, en je bureau is 1 vierkante meter.  Om een oppervlakte van een rechthoek zoals een muur te berekenen vermenigvuldig je de lengte met de hoogte:  oppervlakte = lengte x hoogte .   Om de oppervlakte van een rechthoek zoals een voetbalveld te berekenen vermenig vuldig je de lengte met de breedte:  oppervlakte = lengte x breedte",
-            "title": "Achtergrond Informatie"
+            "location": "/glo-toets-2011/vraag-5/#gegeven-informatie",
+            "text": "Hoogte muur = 2.5 m  Breedte muur = 2.5 m  De voor- en achterkant worden geschilderd",
+            "title": "Gegeven Informatie"
         },
         {
             "location": "/glo-toets-2011/vraag-5/#oplossing",
-            "text": "De vraag is: wat is de oppervlakte van de voorkant en de achterkant van de muur bij elkaar opgeteld?",
+            "text": "We maken gebruik van de formule:  \n$$\n    \\sf hoogte \\; x \\; breedte \\; = oppervlakte\n$$  Eerst berekenen we de oppervlakte van de muur. \nDaarna vermenigvuldigen we deze oppervlakte met 2.",
             "title": "Oplossing"
         },
         {
-            "location": "/glo-toets-2011/vraag-5/#stap-1-bereken-de-oppervlakte-van-de-voorkant-van-de-muur",
-            "text": "De lengte is 16m \nDe hoogte is  \\(2\\frac12\\)  meter \nDe oppervlakte van de voorkant is dus 16 x  \\(2\\frac12\\)  = 40 m2   Tip  Om 16 x  \\(2\\frac12\\)  te berekenen kan je de som in stukjes oplossen: \n16 x 2 = 32 \n16 x  \\(\\frac12\\)  = 8 \n32 + 8 = 40",
-            "title": "Stap 1: bereken de oppervlakte van de voorkant van de muur"
+            "location": "/glo-toets-2011/vraag-5/#stap-1-bereken-de-oppervlakte-van-de-muur",
+            "text": "$$\n    \\sf 16m \\; x \\; 2.5m = \\; 40 \\; m2\n$$   Tip  Om 16 x  \\(2\\frac12\\)  te berekenen kan je de som in stukjes oplossen: \n16 x 2 = 32 \n16 x  \\(\\frac12\\)  = 8 \n32 + 8 = 40",
+            "title": "Stap 1: bereken de oppervlakte van de muur"
         },
         {
             "location": "/glo-toets-2011/vraag-5/#stap-2-bereken-de-oppervlakte-van-de-voor-en-achterkant-van-de-muur",
-            "text": "De voorkant en de achterkant van de muur zijn even groot \nDe voorkant en de achterkant zijn dus elk 40 m2 \nIn totaal moet er dus  40 + 40 = 80 m2  geschilderd worden. \nHet juiste antwoord is dus  C",
+            "text": "$$\n    \\sf 40 \\; x \\; 2 = \\; 80 \\; m2\n$$  Het juiste antwoord is dus  C",
             "title": "Stap 2: bereken de oppervlakte van de voor  en achterkant van de muur"
         },
         {
@@ -316,14 +296,9 @@
             "title": "Stap 3: Bereken het verschil tussen de twee tijden."
         },
         {
-            "location": "/mathjax-test/",
-            "text": "hello\n\n\n\n\n\nWhen \n\\(a \\ne 0\\)\n, there are two solutions to \n\\(ax^2 + bx + c = 0\\)\n and they are\n\n\n\\[x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.\\]",
-            "title": "Mathjax Test"
-        },
-        {
             "location": "/practice/",
             "text": "Question\n\n\n\nShamir vertrok om \n van zijn huis naar school met een gemiddelde snelheid van \n km/u.\n\n\n\nOnderweg rustte hij even uit.\n\n\n\nDe afstand van Shamir's huis naar school is \n km.\n\n\n\nShamir komt om \n aan op school.\n\n\n\nHoeveel minuten heeft hij onderweg uitgerust?\n\n\n\n\n\n\n\n\n\nAntwoord controleren\n\n\nNieuwe vraag\n\n\nAntwoord laten zien",
-            "title": "Practice"
+            "title": "wegsom"
         }
     ]
 }
